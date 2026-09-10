@@ -47,8 +47,4 @@ public class PerawatanHewan {
         this.tanggal = tanggal;
     }
     
-    @Override
-    public String toString() {
-        return jenisPerawatan + " (" + tanggal +")";
-    }
 }

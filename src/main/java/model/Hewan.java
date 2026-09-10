@@ -45,7 +45,6 @@ public class Hewan {
         this.nama = nama;
     }
 
-    //Getter dan Setter jenis
     public String getJenis() {
         return jenis;
     }
@@ -78,12 +77,4 @@ public class Hewan {
         this.perawatan = perawatan;
     }
     
-    @Override
-    public String toString() {
-        return "ID: " + id +
-               ", Nama: " + nama +
-               ", Jenis: " + jenis +
-               ", Umur: " + umur +
-               ", Habitat: " + habitat;
-    }
 }

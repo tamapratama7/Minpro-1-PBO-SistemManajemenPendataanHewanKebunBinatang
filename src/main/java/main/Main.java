@@ -101,7 +101,12 @@ public class Main {
                         for (Hewan dataHewan : pengelola.getDaftarHewan()) {
 
                             System.out.println("\n--------------------------");
-                            System.out.println(dataHewan);
+                            System.out.println("Id : " + dataHewan.getId());
+                            System.out.println("Nama : " + dataHewan.getNama());
+                            System.out.println("Jenis : " + dataHewan.getJenis());
+                            System.out.println("Umur : " + dataHewan.getUmur());
+                            System.out.println("Habitat : " + dataHewan.getHabitat());
+                            System.out.println("Perawatan : " + dataHewan.getPerawatan().getJenisPerawatan() + "(" + dataHewan.getPerawatan().getTanggal() + ")");
                             System.out.println("--------------------------");
                         }
                     }
