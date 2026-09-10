@@ -35,4 +35,25 @@ Setiap data hewan memiliki relasi dengan data perawatan, yang mencatat jenis per
    -  **Lihat Data Hewan (2)** Program memanggil `pengelola.getDaftarHewan()` untuk mengambil seluruh data, lalu menampilkannya satu per satu menggunakan method `toString()` pada kelas `Hewan`. Jika daftar kosong, program menampilkan pesan bahwa belum ada data.
    - **Ubah Data Hewan (3)** Pengguna memasukkan ID hewan yang ingin diubah beserta data baru (nama, jenis, umur, habitat, dan data perawatan baru). Data ini diproses oleh `pengelola.ubahHewan()`, yang mencari hewan berdasarkan ID; jika ditemukan, data akan diperbarui dan mengembalikan `true`, jika tidak ditemukan mengembalikan `false`.
    - **Hapus Data Hewan (4)** Pengguna memasukkan ID hewan yang ingin dihapus. Method `pengelola.hapusHewan()` mencari hewan dengan ID tersebut di dalam `ArrayList`; jika ditemukan, data dihapus dan mengembalikan `true`, jika tidak mengembalikan `false`.
-   - Keluar (5) Program menampilkan pesan penutup, lalu perulangan
+   - **Keluar (5)** Program menampilkan pesan penutup, lalu perulangan `do-while` berhenti dan objek `Scanner` ditutup (`input.close()`).
+
+4) `Perulangan` Setelah setiap aksi (kecuali keluar) selesai diproses, program kembali menampilkan menu utama sampai pengguna memilih untuk keluar.
+
+
+## 3. Demo Program
+Berikut simulasi tampilan program saat dijalankan di terminal, mulai dari menambah data, melihat data, mengubah data, menghapus data, hingga keluar dari program
+1) **Tampilan Utama**
+   
+   <img width="412" height="217" alt="image" src="https://github.com/user-attachments/assets/ff757f7e-e7f3-42f7-bb16-0dcb6e1fd029" />
+
+2) **Tambah Data Hewan**
+
+   <img width="482" height="275" alt="image" src="https://github.com/user-attachments/assets/dad4fbd5-66a7-4be3-be2c-88c4b6fe4ecf" />
+
+3) **Lihat Data Hewan**
+
+   <img width="433" height="220" alt="image" src="https://github.com/user-attachments/assets/10c324b7-bfeb-4887-81ff-7c7801d6b262" />
+
+4) **Ubah Data Hewan**
+
+   
